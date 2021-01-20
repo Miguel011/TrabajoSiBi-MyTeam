@@ -2,10 +2,14 @@
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas
 La memoria está subida tanto en pdf como en word ya que al convertirlo a pdf me dio algún fallo y no es visible de la misma manera.
+
 Pre-requisitos📋
+
 Qué cosas necesitas para instalar el software y como instalarlas
 Visual Studio Code, Sublime Text, etc. Cualquier editor de texto.
+
 Instalación🔧
+
 Descargar en formato ZIP el archivo Take My Movie del Github (y extraerlo) donde se podrán encontrar los diferentes archivos
 /public, /views, /app.js, /package-lock.json, /package.json
 https://nodejs.org/es/ Dirigirse a esta página y descargar el Nodejs.
