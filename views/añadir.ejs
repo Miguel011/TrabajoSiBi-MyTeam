@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTeam</title>
+    <link rel="shortcut icon" href="../public/logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="estilosañadir.css"/>
+
+    
+</head>
+<body>
+    
+        
+        <nav id="Links">
+            <a href="mailto:mpriec05@estudiantes.unileonl.es@gmail.com" id="correo">Mail</a>
+            <a href="https://github.com/Miguel011">GitHub</a>
+            <a href="https://www.instagram.com/miguii9/?hl=es">Instagram</a>
+            <a href="https://twitter.com/Miguii_10"> Twitter </a>
+         </nav>
+
+    
+
+        <nav id="Rutas">
+            <table id="tabla1">
+                <tr>
+                    <td><img src="liga.png" height="240" width="240"/></td> 
+                    <td id="textTabla"> <a href= "index.html">Inicio</a></td>
+                    <td id="textTabla"> 
+                        <form method="POST" action="/Comojugar" class="form">
+                            <a href= "#" onclick="$(this).closest('form').submit()" href="#">¿Cómo Jugar?</a>
+                        </form>
+                    </td>
+                    <td id="textTabla"> <a href= "#">Jugadores</a></td>
+                </tr>
+            </table>
+        </nav>
+<table style="width: 1500px;" id="tablaSi">
+    <tr>
+        <td>
+<h3> Añadir Jugador </h3>
+<form method="post" action="/jugadores/add">
+    <label>Nombre del Jugador</label> <br>
+    <input type="text" name="nombre">
+    <br><br>
+    <label>Edad</label> <br>
+    <input type="text" name="edad">
+    <br><br>
+    <label>Posición</label> <br>
+    <input type="text" name="posicion">
+    <br><br>
+    <label>Precio</label> <br>
+    <input type="text" name="precio">
+    <br> <br>
+    <input type="submit" value="Submit">
+</form>
+    </td>
+
+    <td>
+<h3 style="text-align: center;"> Añadir Estadística </h3>
+<form method="post" action="/estadisticas/add">
+    <label>Estadística deseada del Jugador</label> <br>
+    <input type="text" name="nombre">
+    <br> <br>
+    <input type="submit" value="Submit">
+</form>
+    </td>
+    <td>
+<h3 style=" text-align: center;"> Añadir Jugador con su estadística </h3>
+<form method="post" action="/jugadores/estadisticas/add">
+    <label>Nombre del Jugador</label> <br>
+    <input type="text" name="nombre1">
+    <br><br>
+    <label>Estadística</label> <br>
+    <input type="text" name="nombre2">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</td>
+</tr>
+</table>
+<table style="margin-left: 350px; background:black;" id="tablaUlt">
+<form method= "post" action="/ensenarEstadistica"> 
+    <td style="width: 250px; text-align:left ; color:white;">
+    <label><p><b>Seleccionar estadística</b></p></label>
+    </td>
+    <td>
+    <select  name="estadistica" class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" aria-labelledby="navbarDropdown" >
+        <option value="">Elegir...</option>
+        <option value="Paradas">Paradas</option>
+        <option value="Entradas">Entradas</option>
+        <option value="Despejes">Despejes</option>
+        <option value="Balones Recuperados">Balones Recuperados</option>
+        <option value="Porteria a 0">Porteria a 0</option>
+        <option value="Asistencias">Asistencias</option>
+        <option value="Goleadores">Goleadores</option>
+        <option value="Regateadores">Regateadores</option>
+        
+    </select>
+    </td>
+    <br><br>
+    <td style="width: 100px;text-align: center;">
+    <button type="submit" class="btn btn-primary my-1" id="elemento">Buscar</button>
+    </td>
+</form>
+<td style="width: 500px;">
+<h1 style="color:red; text-align: center;" class="random"> algo </h1>
+</td>
+</table>
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script 
+    src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script> 
+
+    
+
+
+
+
+</body>
+</html>

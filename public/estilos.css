@@ -1,0 +1,97 @@
+
+    #Links{
+
+    float: right;
+    color: red;
+   
+    }
+
+    body{
+        background: lightblue;
+        font-family: Arial, Helvetica, sans-serif;
+        border: transparent 1px solid; 
+    }
+    
+   
+    #tabla1 tr:hover {
+        background: red;
+        
+    }
+    #tabla1 td:hover{
+        background: rgb(182, 2, 2);
+        color: #fff;
+    }
+
+    #Rutas{
+        background: red;
+        margin-top: 60px;
+        margin-right: 160px;
+        margin-left: 160px;
+        
+    }
+    #tablaSi{
+        margin-left: 180px;
+        text-align:center;
+        
+    }
+
+    #contenedorRutas{
+        background: blue;
+    }
+    
+    #tabla2 {
+        margin: 160px;
+    }
+
+    #text1 {
+        padding: 60px;
+        font-size: 30px;
+    }
+
+    #titulo1 {
+        color: red;
+        text-align: center;
+        font-size: 50px;
+
+        
+    }
+
+    #tabla3 {
+        margin: 160px;
+    }
+
+    #text2{
+        padding: 60px;
+        font-size: 30px;
+        font-style: oblique;
+    }
+
+    #textTabla{
+         padding: 0 135px;
+         border:solid 1px transparent;
+         font-size: 28px;
+         color: black;
+         font-style: oblique;
+         font-weight: bolder;
+       
+
+    }
+
+    #tablaJugadores{
+        margin-left: 280px;
+        background: rgb(6, 158, 6);
+        color: white;
+        
+    }
+
+    #boton{
+        text-align: right;
+        padding: 20px;
+    }
+
+    #textTabla1{
+
+        padding: 40px 110px 30px 100px;
+    
+
+    }
