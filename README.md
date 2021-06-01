@@ -10,7 +10,7 @@ Visual Studio Code, Sublime Text, etc. Cualquier editor de texto.
 
 Instalación🔧
 
-Descargar en formato ZIP el archivo Take My Movie del Github (y extraerlo) donde se podrán encontrar los diferentes archivos
+Descargar en formato ZIP el archivo del Github (y extraerlo) donde se podrán encontrar los diferentes archivos
 /public, /views, /app.js, /package-lock.json, /package.json
 https://nodejs.org/es/ Dirigirse a esta página y descargar el Nodejs.
 Después habrá que seguir estas instrucciones:https://bertofern.wordpress.com/2019/01/08/solucion-node-js-npm-no-reconocido-como-comando-interno-o-externo/, son 10 pasos simples. Finalmente ya podrá proseguir y utilizar el comando "npm install"
